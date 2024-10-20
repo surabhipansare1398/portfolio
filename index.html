@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surabhi Pansare-Web developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#work">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="main">
+            <div class="mainText">
+                <h3>Hello I Am </h3>
+                <h1>Surabhi Pansare</h1>
+                <p>Motivated junior web developer looking for a role<br>
+                as full-stack web developer. Passionate about building first-class web applications.<br>
+                Developed an PCB fault dtection website while at University X. <br>
+                I have 2.5 years Experience in software enginnering as<br>
+                Front-End developer in Cognizant Technology.<br>
+                I worked on technogy like HTML,CSS,JavaScript and React.<br>
+                </p>
+                <a  href="surabhi resume.pdf" target="_blank" download  onclick="downloadBtn()"><i class="fa-solid fa-download"></i>Download CV</a>
+            </div>
+            <img src="suru.jpg">
+        </div>
+        <div id="about">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <h2>Work Experience:</h2>
+                    <p>I have 2.5 years Experience in software enginnering as<br>
+                     Front-End developer in Cognizant Technology.<br>
+                     I worked on technogy like HTML,CSS,JavaScript and React.</p>
+
+                     <h2 class="ed">Eduacation:</h2>
+                     <p>BE.Computer enginnering. (2018-2021)</p>
+
+                     <h2 class="hb">Hobbie:</h2>
+                     <p>I like coding as professionaly.<br>
+                      Dansing as personally.<br>
+                      I also like sport and singing.</p>
+                </div>
+                <img src="suru.jpg">
+            </div>
+        </div>
+        <div id="service">
+            <div class="head">
+                <h1>our service</h1>
+            </div>
+            <div class="btn">
+                <button class="btn" id="all">All</button>
+                <button class="btn" id="web">Web development</button>
+                <button class="btn" id="ui">UI/UX Design</button>
+            </div>
+            <div class="service">
+                <div class="serviceCard" id="uiDesign">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate corporis quos voluptatem? Accusantium a magnam pariatur modi magni, cupiditate dolorem.</p>
+
+                </div>
+                <div class="serviceCard" id="webDesign">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate corporis quos voluptatem? Accusantium a magnam pariatur modi magni, cupiditate dolorem.</p>
+                    
+                </div>
+   
+            </div>
+       
+        </div>
+        <div id="work">
+            <div class="head">
+                <h1>Project</h1>
+            </div>
+            <div class="project">
+                <div class="projectCard">
+                    <img src="weather.png">
+                    <h3>Weather website</h3>
+                    <p>Weather website using HTML,CSS,JS and API</p>
+                    <a href="" target="_blank">Checkout</a>
+                </div>
+                <div class="projectCard">
+                    <img src="port.png">
+                    <h3>Portfolio website</h3>
+                    <p>personal Portfolio website using HTML and CSS</p>
+                    <a href="" target="_blank">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="head">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact">
+                <input type="text" placeholder="Enter your Name" id="name">
+                <input type="text" placeholder="Enter your Email" id="email">
+                <input type="text" placeholder="Enter your Subject" id="subject">
+                <textarea name="" id="msg" cols="50" rows="6" values="" placeholder="Enter Message...."></textarea>
+                <button  id="submit">Submit</button>
+            </div>
+        </div>
+        
+        <div class="text">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Declamair</p>
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
